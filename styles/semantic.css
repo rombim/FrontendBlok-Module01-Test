@@ -27,9 +27,7 @@ ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
-}
-li:not(:last-child) {
-    margin-right: 30px; 
+    gap: 30px;
 }
 .box {
     display: flex;
@@ -57,12 +55,22 @@ section {
     background: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
+    flex-basis: 30%;
 }
 .section1{
     background-color: moccasin;
+}
+.results {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
 }
 .link {
     background: rebeccapurple;
     color:white;
     padding: 8px 15px;
+    display:block;
+    text-align: center;
+    margin-top: 20px;
 }
+
